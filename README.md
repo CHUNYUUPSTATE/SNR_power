@@ -8,9 +8,10 @@ This repository contains Python code to simulate and visualize the relationship 
 
 ## **Key Features**
 - **Power Analysis**: Calculates the required sample size for a given SNR, power level, and significance threshold using the `statsmodels` library.
-- **Visualization**: Plots the relationship between SNR and required sample size for different power levels (e.g., 0.4, 0.6, 0.8, 0.99) on a log scale.
+- **Visualization**: Plots the relationship between SNR and required sample size for different power levels (e.g., 0.4, 0.6, 0.8) on a log scale.
 - **Smoothing**: Uses cubic spline interpolation to generate smooth curves, avoiding abrupt jumps caused by numerical instabilities.
 - **Customizable Inputs**: Allows users to specify SNR range, power levels, and significance thresholds.
+- **Genome-wide significance** of 5e-8 is assumed.
 
 ---
 
